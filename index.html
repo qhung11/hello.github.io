@@ -309,6 +309,7 @@
             </div>
           </div>
         </div>
+        v<img src="C:\Users\Admin\snapedit_1703350881641" alt="Đọc thư">
 
         <div class="wing right"></div>
         <div class="wing left"></div>
@@ -318,8 +319,35 @@
       <div class="top"></div>
       
       <div class="sides"></div>
-      <a class="button" href="./letter1.html">Đọc thư</a>
     </div>
         <script src="./flower2.js"></script>
+      </body>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button "Đọc thư"</title>
+        <style>
+          #button-doc-thu {
+            display: none;
+          }
+        </style>
+      </head>
+      <body>
+      
+        <button id="button-doc-thu">Đọc thư</button>
+      
+        <script>
+          // Đợi 5 giây (5000 miligiây) trước khi hiển thị button
+          setTimeout(function() {
+            document.getElementById('button-doc-thu').style.display = 'block';
+          }, 5000);
+      
+          // Add click event listener to the button
+          document.getElementById('button-doc-thu').addEventListener('click', function() {
+            // Redirect to another HTML page
+            window.location.href="letter11.html"; // Replace 'another-page.html' with the actual page URL
+          });
+        </script>
+      
       </body>
 </html>

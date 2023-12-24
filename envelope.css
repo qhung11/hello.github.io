@@ -1,4 +1,4 @@
-body {
+/* /* body {
     margin:0;
     background:mistyrose;
 }
@@ -107,51 +107,61 @@ margin-top:58px;
 
 /* heart */
 
-.heart{
-position: absolute;
-margin: 560px auto;
-width: 1px;
-z-index:99999;
-height: 2.1px;
-margin-left:-39px;
-left:12.8%;
-transform:scale(.8);
-transition:.6s;
-margin-top:60px;
+.heart {
+    position: absolute;
+    margin: 560px auto;
+    width: 1px;
+    z-index: 99999;
+    height: 2.1px;
+    margin-left: -39px;
+    left: 12.8%;
+    transform: scale(.8);
+    transition: .6s;
+    margin-top: 60px;
+  }
 
-}
-.heart:before,
-.heart:after{
-content: "";
-width: 50px;
-height: 80px;
-position: absolute;
-left: 50px;
-top: 0;
-border-radius: 50px 50px 6px 6px;
-background: crimson;
-transform: rotate(-45deg);
-transform-origin: 0 100%;
-}
-.heart:after{
-left: 0;
-transform: rotate(45deg);
-transform-origin :100% 100%;
-}
+  .heart:before,
+  .heart:after {
+    content: "";
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    border-radius: 50px 50px 6px 6px;
+    background: crimson;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
 
-@keyframes heart {
-0% {
-    transform: scale(.8) translate(0,0);
-}
+  .heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
 
-50% {
-    transform: scale(.92) translate(0, 12px);
-}
+  #button-doc-thu {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: red;
+  }
 
-100% {
-    transform:scale(.8);
-}
-}
+  @keyframes heart {
+    0% {
+      transform: scale(.8) translate(0, 0);
+    }
+
+    50% {
+      transform: scale(.92) translate(0, 12px);
+    }
+
+    100% {
+      transform: scale(.8);
+    }
+  }
 
 /* envelope */
 
@@ -163,8 +173,8 @@ width: 100px;
 border-radius:2px;
 overflow:hidden;
 animation: floaty 1s ;
-right:37%;
-transform: translateY(-500px);
+right:39.5%;
+transform: translateY(-497px);
 }
 
 @keyframes floaty {
@@ -202,4 +212,6 @@ top: 0;
 transform-origin: 50% 0;
 width: 0;
 }
-
+#button-doc-thu {
+    display: none;
+  }
