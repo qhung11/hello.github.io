@@ -18,7 +18,7 @@ background:white;
 .right {
 margin: 500px auto;
 margin-left:400px;
-left:-23.7%;
+left:-24.6%;
 animation:flap1 1s infinite;
 border-bottom:3px solid rgba(0,0,0,.08);
  border-radius: 12px 20px 60px 20px;
@@ -143,10 +143,11 @@ margin-top:58px;
   #button-doc-thu {
     display: none;
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 13%;
     transform: translate(-50%, -50%);
-    color: red;
+    color: rgb(10, 10, 10);
+
   }
 
   @keyframes heart {
@@ -173,7 +174,7 @@ width: 100px;
 border-radius:2px;
 overflow:hidden;
 animation: floaty 1s ;
-right:39.5%;
+right:37.2%;
 transform: translateY(-497px);
 }
 
